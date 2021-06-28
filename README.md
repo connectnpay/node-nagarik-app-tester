@@ -11,7 +11,7 @@
  function generateChallengeHash() {
     return computeSHA256(randomString.generate({
         length: 40,
-        charset: 'alphanumeric '
+        charset: 'alphanumeric'
     }));
  }
 ```
